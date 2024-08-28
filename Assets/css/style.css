@@ -23,6 +23,15 @@ li {
     width: 100%;
 }
 
+img{
+    
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
 #search-btn {
     margin-top: 10px;
     width: 100%;
@@ -30,6 +39,11 @@ li {
     background-color: blue;
     color: white;
     justify-content: center;
+}
+
+#today-weather {
+    background-color: rgb(54, 54, 54);
+    color: white;
 }
 
 .dynamic-button {
@@ -40,4 +54,10 @@ li {
 
 .bold {
     font-weight: bold;
+}
+
+.daily {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 22%;
 }

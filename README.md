@@ -100,3 +100,7 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+
+![The](https://openweathermap.org/img/wn/03n@2x.png)

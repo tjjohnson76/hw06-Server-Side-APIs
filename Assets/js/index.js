@@ -42,7 +42,7 @@ function addButton(input) {
 
 function getWeather(locationObj) {
 
-  const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${locationObj.lat.toFixed(2)}&units=imperial&lon=${locationObj.lon.toFixed(2)}&appid=83289a961f66ea21035d3f375d92539e`
+  const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${locationObj.lat.toFixed(2)}&units=imperial&lon=${locationObj.lon.toFixed(2)}&appid=83289a961f66ea21035d3f375d92539e`
 
   fetch(url)
     .then(function (response) {

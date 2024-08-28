@@ -5,12 +5,39 @@ header {
     padding: 20px;
 }
 
+div {
+    margin: 10px;
+}
+
 input {
     width: 100%;
     padding: 5px;
 }
 
-button {
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+}
+
+#search-btn {
+    margin-top: 10px;
     width: 100%;
     padding: 5px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+}
+
+.dynamic-button {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
 }

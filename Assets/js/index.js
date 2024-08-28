@@ -91,7 +91,7 @@ function populatePage(weeklyWeather) {
   for (let i = 10; i < weeklyWeather.list.length; i += 8) {
 
     const dailyDiv = document.createElement('div')
-    dailyDiv.setAttribute('class', 'card daily')
+    dailyDiv.setAttribute('class', 'card daily col-2')
 
     const dailyTop = document.createElement('h4')
     dailyTop.textContent = `${getDate(weeklyWeather.list[i].dt_txt.substring(0, 10))}`
